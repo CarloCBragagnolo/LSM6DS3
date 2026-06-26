@@ -25,7 +25,7 @@ but WITHOUT ANY WARRANTY.
 
 
 #include "LSM6DS3.h"
-//initialize sensor object. arguments are SPI CS pin, accelerometer range (in g, can be 2, 4, 8 or 16 (in units of g), defaults to 2 if other value is passed)
+//initialize sensor object. arguments are SPI CS pin, accelerometer range (can be 2, 4, 8 or 16 (in units of g), defaults to 2 if other value is passed)
 // and gyroscope range (125, 250, 500, 1000, 2000 (deg/sec). defaults to 125 if other values are passed)
 LSM6 sensor(10, 8,250);
 
