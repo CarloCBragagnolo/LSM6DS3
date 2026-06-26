@@ -30,7 +30,7 @@ but WITHOUT ANY WARRANTY.
 LSM6 sensor(10, 8,250);
 
 void setup() {
-  // Wait for initialization, start sensor with specified sensors.
+  // Wait for initialization, start sensor with specified settings.
   Serial.begin(9600);
   while(!Serial){}
   sensor.begin();
